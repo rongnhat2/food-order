@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Customer\DisplayController@index')->name('customer.view.index');
 Route::get('/category', 'Customer\DisplayController@category')->name('customer.view.category');
+Route::get('/cart', 'Customer\DisplayController@cart')->name('customer.view.cart');
 
 
 Route::middleware(['AuthAdmin:auth'])->group(function () {

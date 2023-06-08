@@ -94,14 +94,12 @@
                                     </div>
                                     <p class="cutting">{{ $value->description }}</p>
                                        <div class="btn-sec">
-                                          <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Add</a> 
+                                          <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Thêm</a> 
                                        </div>
                                  </div>
                               </div>
                            <?php endforeach ?>
                           </div>
-                          <!--  -->
-                          
                        </div>
                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                           <div class="food-kitchen-grid-wrapper">
@@ -111,10 +109,10 @@
                                  <img src="{{ $value->image }}" alt="img" style="object-fit: cover; height: 100%">
                               </div>
                               <div class="kitchen-text">
-                                 <h4><a href="javascript:;">Vada Pav</a></h4>
+                                 <h4><a href="javascript:;">{{ $value->name }}</a></h4>
                                  <p class="cutting">{{ $value->description }}</p>
                                     <span>{{ $value->price }} đ</span>
-                                    <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Add</a>
+                                    <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Thêm</a>
                               </div>
                            </div> 
                            <?php endforeach ?>

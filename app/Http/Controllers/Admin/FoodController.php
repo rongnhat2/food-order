@@ -39,7 +39,7 @@ class FoodController extends Controller
             "name"          => $request->data_name,   
             "description"          => $request->data_description,  
             "coefficient"          => $request->data_coefficient,   
-            "price"          => $request->data_price,  
+            "prices"          => $request->data_price,  
             "image"      => $data_image,    
         ];  
         $data_create = $this->food->create($data);  

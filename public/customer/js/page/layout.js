@@ -18,7 +18,8 @@ const IndexView = {
 
             }else{
                 card_data.split(",").map(v => {
-                    $(`.action-add-to-card[data-id=${v}]`).remove();
+                    $(`.action-add-to-card[data-id=${v}]`).text("Đã thêm");
+                    // $(`.action-add-to-card[data-id=${v}]`).remove();
                 })
             }
 
@@ -53,6 +54,7 @@ const IndexView = {
     },
     init(){
         IndexView.Cart.init()
+        IndexView.Cart.update()
     }
 };
 (() => {

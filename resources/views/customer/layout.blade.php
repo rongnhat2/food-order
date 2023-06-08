@@ -150,7 +150,7 @@
                         <div class="right-logo cart-count">
                            <ul> 
                               <li>
-                                 <a href="javascript:;" class="cart-toggle">
+                                 <a href="/cart" class="cart-toggle">
                                     <span>
                                        <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M15.1669 12.3335H12.8334V19.3335H15.1669V12.3335Z" fill="#EB0029"/>
