@@ -1,346 +1,13 @@
-<!DOCTYPE html>
-<!-- 
-   Template Name: Mother's Recipe HTML
-   Version: 1.0.0
-   Author: Webstrot 
-   
-   -->
-<!--[if IE 8]> 
-<html lang="en" class="ie8 no-js">
-   <![endif]-->
-   <!--[if IE 9]> 
-   <html lang="en" class="ie9 no-js">
-      <![endif]-->
-      <!--[if !IE]><!-->
-      <html lang="zxx" dir="ltr">
-         <!--[endif]-->
-   <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Mother's Recipe HTML</title>
-      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-       <!-- fav icon link  -->
-       <link rel="icon" href="images/fav.png" type="image/x-icon" />
-      <!--Template style -->
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/animate.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/animate.min.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/bootstrap.min.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/fonts.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/font-awesome.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/font-awesome.min.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/custom-select.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/owl.carousel.min.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/owl.theme.default.min.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/toggle.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/style.css") }}" />
-      <link rel="stylesheet" type="text/css" href="{{ asset("customer/css/responsive.css") }}" />
-       
-   </head>
-   <body>
-      <!-- help-fix -->
-      <div id="preloader">
-         <div id="status">
-            <img src="{{ asset("customer/images/loader.gif") }}" id="preloader_image" alt="loader">
-         </div>
-      </div>
-      <!-- top to return -->
-      <a href="javascript:;" id="return-to-top" class="change-bg2"> <i class="fas fa-angle-double-up"></i></a>
-      <!-- header start -->
-      <div class="main-header-wrapper1">
-         <div class="right-sidebar" id="right-sidebar">
-            <div class="toggle-top-header">
-               <button class="sidebar-close"></button>
-            </div>
-            <div class="toggle-content">
-               <ul>
-                 <li class="mega-menu-item"><a href="index.html"><small>01</small>  Home</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                  </li>
-                  <li class="mega-menu-item"><a href="about-us.html"><small>02</small> About us</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"><small>03</small>  Pages</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                  <ul class="menu-depth-1">
-                     <li><a href="gallery-4-grid.html">Gallery 4 Grid</a></li>
-                     <li><a href="coming-soon.html">Coming Soon</a></li>
-                     <li><a href="faq.html">Faq</a></li>
-                  </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"> <small>04</small> Chef</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                   <ul class="menu-depth-1">
-                     <li><a href="chef-listing.html">Chef Listing</a></li>
-                     <li><a href="chef-details.html">Chef Details</a></li>
-                  </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"> <small>05</small> Blog</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                     <ul class="menu-depth-1">
-                        <li><a href="blog-single.html">Blog Single</a></li>
-                        <li><a href="blog-with-sidebar.html">Blog Withsidebar</a></li>
-                        <li><a href="blog-without-sidebar.html">Blog Withoutsidebar</a></li>
-                     </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"> <small>06</small> Shop</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                     <ul class="menu-depth-1">
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="shop-single.html">Shop Single</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                         <li><a href="checkout.html">Checkout</a></li>
-                     </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"> <small>07</small> Shortcodes</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                     <ul class="menu-depth-1">
-                        <li><a href="sho_accordion.html">Accordion</a></li>
-                        <li><a href="sho_alert.html">Alert</a></li>
-                        <li><a href="sho_button.html">Button</a></li>
-                         <li><a href="sho_client.html">client</a></li>
-                         <li><a href="sho_counter.html">Counter</a></li>
-                        <li><a href="shop-single.html">form</a></li>
-                        <li><a href="sho_icon.html">Icon</a></li>
-                         <li><a href="sho_list.html">List</a></li>
-                         <li><a href="sho_portfolio.html">Portfolio</a></li>
-                        <li><a href="sho_portfolio.html">Pricing-Table</a></li>
-                        <li><a href="sho_social-icon.html">Social-Icon</a></li>
-                         <li><a href="sho_tab.html">Tab</a></li>
-                         <li><a href="sho_team.html">Team</a></li>
-                         <li><a href="sho_testimonials.html">Testimonials</a></li>
-                     </ul>
-                  </li>
-                  <li class="mega-menu-item"><a href="contact-us.html"> <small>08</small> Contact-Us</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                  </li>
-                  <li class="mega-menu-item"><a href="javascript:;"> <small>09</small>Recipe</a> <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
-                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
-                   </svg></span>
-                   <ul class="menu-depth-1">
-                     <li><a href="recipe.html">Recipe</a></li>
-                     <li><a href="recipe-single.html">Recipe Single</a></li>
-                  </ul>
-                  </li>
-               </ul>
-            </div>
-         </div>
-         <!--  -->
-         <div class="cart-details" id="cart-sidebar">
-            <div class="toggle-top-header">
-               <button class="cart-close"></button>
-            </div>
-            <div class="toggle-content">
-               <p>No Product in the Cart</p>
-            </div>
-         </div>
-         <!--  -->
-         <div class="sb-main-header1">
-            <div class="menu-items-wrapper menu-item-wrapper3 d-xl-block d-lg-block d-md-none d-sm-none d-none">
-               <div class="ps_header_bottom">
-                  <div class="row">
-                     <div class="col-lg-8 col-md-6 col-12">
-                        <div class="left-header-side">
-                           <div class="menu-bar">
-                              <a href="javascript:;">
-                                 <span class="sidebar-toggle">
-                                    <svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                       <rect width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="14" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="14" y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="14" y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="27" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="27" y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                       <rect x="27" y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                    </svg>
-                                 </span>
-                              </a>
-                           </div>
-                           <a href="index.html" class="main-logo"><img src="{{ asset("customer/images/logo.png") }}" alt="Logo"></a>
-                           <div class="input-box">
-                              <input type="text" class="form-control" placeholder="Enter your Delivery Location"> 
-                              <button>Search</button>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-4 col-md-6 col-12">
-                        <div class="right-logo">
-                           <ul> 
-                              <li>
-                                 <a href="javascript:;" class="cart-toggle">
-                                    <span>
-                                       <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <path d="M15.1669 12.3335H12.8334V19.3335H15.1669V12.3335Z" fill="#EB0029"/>
-                                          <path d="M10.5 12.3335H8.16653V19.3335H10.5V12.3335Z" fill="#EB0029"/>
-                                          <path d="M19.8334 12.3335H17.4999V19.3335H19.8334V12.3335Z" fill="#EB0029"/>
-                                          <path d="M22.2396 7.66696L19.692 0.666992L17.4999 1.46429L19.7567 7.66696H8.24177L10.5 1.46429L8.30792 0.666992L5.75923 7.66696H0V10.0004H2.33344L4.28293 21.6988C4.49363 22.9644 5.71618 24 7.00032 24H21.0003C22.283 24 23.5066 22.9644 23.7177 21.6988L25.6668 10.0004H27.9999V7.66696H22.2396ZM21.4157 21.3159C21.3919 21.4569 21.1434 21.6669 20.9999 21.6669H6.99997C6.85647 21.6669 6.60797 21.4569 6.58417 21.3148L4.69838 10.0004H23.3012L21.4157 21.3159Z" fill="#EB0029"/>
-                                       </svg>
-                                    </span>
-                                    <small>5</small> 
-                                 </a>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- responsive menu bar start -->
-            <div class="mobile-menu-wrapper d-xl-none d-lg-none d-md-block d-sm-block">
-               <div class="container-fluid">
-                  <div class="row">
-                     <div class=" col-md-4 col-sm-4 col-6">
-                        <div class="mobil-left-side">
-                           <div class="toggle-main-wrapper" id="sidebar-toggle">
-                              <span><svg width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <rect width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="14" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="14" y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="14" y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="27" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="27" y="12" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 <rect x="27" y="24" width="5" height="5" rx="2.5" fill="#111111"/>
-                                 </svg>
-                                 </span>
-                             
-                           </div>
-                           <div class="mobile-logo">
-                              <a href="">
-                              <img src="images/logo.png" alt="logo">
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-8 col-sm-8 col-6">
-                        <div class="d-flex  justify-content-end">
-                           <div class="right-logo">
-                              <ul>
-                                 <li class="search-btn">
-                                    <span>
-                                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                        </svg>
-                                    </span>
-                                    <div class="search-open">
-                                       <input type="text" class="form-control" placeholder="Search">
-                                       <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                                    </div> 
-                                 </li>
-                                 <li class="signup"><a href="javascript:;"> Sign Up </a></li>
-                                 <li>
-                                    <a href="javascript:;">
-                                       <span>
-                                          <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                             <path d="M15.1669 12.3335H12.8334V19.3335H15.1669V12.3335Z" fill="#EB0029"></path>
-                                             <path d="M10.5 12.3335H8.16653V19.3335H10.5V12.3335Z" fill="#EB0029"></path>
-                                             <path d="M19.8334 12.3335H17.4999V19.3335H19.8334V12.3335Z" fill="#EB0029"></path>
-                                             <path d="M22.2396 7.66696L19.692 0.666992L17.4999 1.46429L19.7567 7.66696H8.24177L10.5 1.46429L8.30792 0.666992L5.75923 7.66696H0V10.0004H2.33344L4.28293 21.6988C4.49363 22.9644 5.71618 24 7.00032 24H21.0003C22.283 24 23.5066 22.9644 23.7177 21.6988L25.6668 10.0004H27.9999V7.66696H22.2396ZM21.4157 21.3159C21.3919 21.4569 21.1434 21.6669 20.9999 21.6669H6.99997C6.85647 21.6669 6.60797 21.4569 6.58417 21.3148L4.69838 10.0004H23.3012L21.4157 21.3159Z" fill="#EB0029"></path>
-                                          </svg>
-                                       </span>
-                                       <small>5</small> 
-                                    </a>
-                                 </li>
-                              </ul>
-                           </div>
-                           
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div id="sidebar">
-               <div class="sidebar_logo">
-                  
-               </div>
-               <div id="toggle_close">&times;</div>
-               <div id='cssmenu'>
-                  <ul class="float_left">
-                     <li class="has-sub">
-                        <a href="index.html">Home</a>
-                     </li>
-                     <li class="has-sub">
-                        <a href="about-us.html">About us</a>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Pages</a>
-                        <ul>
-                           <li><a href="gallery-4-grid.html">Gallery 4 Grid</a></li>
-                           <li><a href="contact-us.html">Contact Us</a></li>
-                           <li><a href="faq.html">Faq</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Chef</a>
-                        <ul>
-                           <li><a href="chef-listing.html">Chef Listing</a></li>
-                           <li><a href="chef-details.html">Chef Details</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Blog</a>
-                        <ul>
-                           <li><a href="blog-single.html">Blog Single</a></li>
-                           <li><a href="blog-with-sidebar.html">Blog Withsidebar</a></li>
-                           <li><a href="blog-without-sidebar.html">Blog Withoutsidebar</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Shop</a>
-                        <ul>
-                           <li><a href="shop.html">Shop</a></li>
-                           <li><a href="shop-single.html">Shop Single</a></li>
-                           <li><a href="cart.html">Cart</a></li> 
-                           <li><a href="checkout.html">Checkout</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Shortcodes</a>
-                        <ul>
-                           <li><a href="sho_accordion.html">Accordion</a></li>
-                           <li><a href="sho_alert.html">Alert</a></li>
-                           <li><a href="sho_button.html">Button</a></li> 
-                           <li><a href="sho_client.html">Client</a></li>
-                           <li><a href="sho_counter.html">Counter</a></li>
-                           <li><a href="sho_form.html">Form</a></li>
-                           <li><a href="sho_icon.html">Icon</a></li> 
-                           <li><a href="sho_list.html">List</a></li>
-                           <li><a href="sho_portfolio.html">Portfolio</a></li>
-                           <li><a href="sho_pricing-table.html">Pricing Table</a></li>
-                           <li><a href="sho_social-icon.html">Social Icon</a></li> 
-                           <li><a href="sho_tab.html">Tab</a></li>
-                           <li><a href="sho_team.html">Team</a></li>
-                           <li><a href="sho_testimonials.html">Testimonials</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="jacascript:;">Recipe</a>
-                        <ul>
-                           <li><a href="recipe.html">Recipe</a></li>
-                           <li><a href="recipe-single.html">Recipe Single</a></li>
-                        </ul>
-                     </li>
-                     <li class="has-sub">
-                        <a href="contact-us.html">Contact-us</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-            <!-- responsive menu End -->
-         </div>
-      </div>
-      <!-- header end -->
+@extends('customer.layout')
+@section('title', "")
+
+
+@section('css')
+
+@endsection()
+
+
+@section('body')
       <div class="food-slider-main-wrapper">
          <div class="container custom-container">
             <div class="banner-wrapper">
@@ -349,10 +16,12 @@
                      <div class="slider-caption">
                         <h5>Món ngon mỗi ngày</h5> 
                         <p>Cho Thực Phẩm Tươi & Ngon tại nhà</p>
-                        <a href="shop.html" class="custom-btn">Đặt hàng ngay!</a>
-                        <span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="46" viewBox="0 0 41 46" fill="none" class="svg anim_circle replaced-svg">
+                        <a href="/category" class="custom-btn">Đặt hàng ngay!</a>
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="41" height="46" viewBox="0 0 41 46" fill="none" class="svg anim_circle replaced-svg">
                            <path d="M18.9046 8.21366L8.50758 18.6826C3.49576 23.7291 5.20563 32.247 11.7768 34.9683L22.1738 39.2741C28.758 42.0008 36 37.1615 36 30.035V15.2603C36 6.33463 25.1942 1.88054 18.9046 8.21366Z" stroke="#E9BF95" stroke-width="10"></path>
-                           </svg></span>
+                           </svg>
+                        </span>
                      </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-12">
@@ -398,74 +67,7 @@
             </div>
          </div>
       </div>
-      <!-- Modal -->
-         <div class="modal fade shop-now-modal" id="exampleModalScrollable" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalScrollable" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Our Shop</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-               </div>
-               <div class="modal-body">
-                  <div class="food-kitchen-grid-wrapper">
-                     <div class="food-kitchen-main-wrapper">
-                        <div class="kitchen-img">
-                           <div class="btn-sec">
-                              <a href="javascript:;">New</a>
-                           </div>
-                           <img src="images/salad.png" alt="img">
-                        </div>
-                        <div class="kitchen-text">
-                           <h4><a href="javascript:;">Greek Salad</a></h4>
-                           <span>₹ 500</span>
-                        </div>
-                     </div>
-                     <div class="food-kitchen-main-wrapper">
-                        <div class="kitchen-img">
-                           <div class="btn-sec">
-                              <a href="javascript:;">New</a>
-                           </div>
-                           <img src="images/salad.png" alt="img">
-                        </div>
-                        <div class="kitchen-text">
-                           <h4><a href="javascript:;">Greek Salad</a></h4>
-                           <span>₹ 500</span>
-                        </div>
-                     </div>
-                     <div class="food-kitchen-main-wrapper">
-                        <div class="kitchen-img">
-                           <div class="btn-sec">
-                              <a href="javascript:;">New</a>
-                           </div>
-                           <img src="images/salad.png" alt="img">
-                        </div>
-                        <div class="kitchen-text">
-                           <h4><a href="javascript:;">Greek Salad</a></h4>
-                           <span>₹ 500</span>
-                        </div>
-                     </div>
-                     <div class="food-kitchen-main-wrapper">
-                        <div class="kitchen-img">
-                           <div class="btn-sec">
-                              <a href="javascript:;">New</a>
-                           </div>
-                           <img src="images/salad.png" alt="img">
-                        </div>
-                        <div class="kitchen-text">
-                           <h4><a href="javascript:;">Greek Salad</a></h4>
-                           <span>₹ 500</span>
-                        </div>
-                     </div>
-                  </div>
-                </div>
-               <!-- <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
-               </div> -->
-            </div>
-            </div>
-         </div>
-      <!--  -->
+
       <div class="food-how-work-main-wrapper">
          <div class="container custom-container">
             <div class="title-sec">
@@ -482,7 +84,7 @@
                      </span>
                   </div>
                   <div class="work-text">
-                     <a href="javascript:;"><h4>Chọn món ăn</h4></a>
+                     <a href="/category"><h4>Chọn món ăn</h4></a>
                      <p>Hãy lựa chọn trong danh mục của chúng tôi</p>
                   </div>
                </div>
@@ -526,7 +128,7 @@
                </div>
             </div>
             <div class="center-btn">
-               <a href="shop.html" class="custom-btn">Đặt hàng ngay!</a>
+               <a href="/category" class="custom-btn">Đặt hàng ngay!</a>
             </div>
          </div>
       </div>
@@ -546,7 +148,7 @@
                   </div> 
                   
                   <div class="side-img mt-3">
-                     <a href="shop.html" class="custom-btn">Đặt hàng ngay!</a>
+                     <a href="/category" class="custom-btn">Đặt hàng ngay!</a>
                      <img src="{{ asset("customer/images/women.png") }}" alt="img">
                   </div>
                </div>
@@ -582,118 +184,52 @@
                   <div class="tab-content" id="myTabContent">
                      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                         <div class="custom-inner-tab-main-wrapper">
-                           <div class="food-product-main-wrapper">
-                              <div class="product-img">
-                                 <img src="images/product.png" alt="img">
-                                 <div class="img-top-btn">
-                                    <a href="javascript:;">New</a>
-                                    <a href="javascript:;">20%</a>
-                                 </div>
-                              </div>
-                              <div class="product-text">
-                                 <div class="product-rate">
-                                    <h3><a href="javascript:;">Vada Pav</a></h3>
-                                    <span>₹ 220</span>
-                                 </div>
-                                 <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed...</p>
-                                    <div class="btn-sec">
-                                       <a href="javascript:;" class="custom-btn">Add</a>
-                                       <p>(4.3) <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                          <g clip-path="url(#image34)">
-                                          <path d="M10.3244 1.00206L12.8337 7.03525L19.3471 7.55744C19.6586 7.58244 19.7849 7.97119 19.5476 8.17451L14.5851 12.4254L16.1012 18.7812C16.1737 19.0853 15.843 19.3255 15.5763 19.1626L9.99996 15.7566L4.42367 19.1626C4.15696 19.3255 3.82625 19.0852 3.89875 18.7813L5.41488 12.4254L0.45243 8.17451C0.215086 7.97123 0.341414 7.58244 0.652937 7.55744L7.16625 7.03525L9.67558 1.00206C9.79558 0.713506 10.2044 0.713506 10.3244 1.00206Z" fill="#FFDC64"/>
-                                          <path d="M6.872 12.7241C6.97626 12.3296 6.84349 11.9105 6.53118 11.648L3.22912 8.87227C3.05061 8.69422 3.14565 8.35371 3.37994 8.33184L7.60728 7.93727C8.017 7.89903 8.36696 7.6259 8.50356 7.23774L10.5269 1.48885L10.3244 1.00182C10.2043 0.713262 9.79555 0.713262 9.67559 1.00182L7.16626 7.03493L0.652998 7.55719C0.341475 7.58219 0.215148 7.97094 0.452491 8.17426L5.41498 12.4251L3.89885 18.781C3.82635 19.085 4.15705 19.3253 4.42377 19.1623L5.31412 18.6185L6.872 12.7241Z" fill="#E8B445"/>
-                                          <path d="M19.9664 7.6971C19.8812 7.43472 19.6484 7.25093 19.3734 7.2289L13.0606 6.72284L10.6286 0.875351C10.5226 0.620625 10.2759 0.456055 10 0.456055C9.72415 0.456055 9.47747 0.620664 9.37149 0.875351L6.93943 6.72276L0.626624 7.2289C0.351664 7.25093 0.118852 7.43476 0.0335783 7.6971C-0.051695 7.95944 0.0286564 8.24499 0.238148 8.42444L5.04783 12.5444L3.57842 18.7046C3.51439 18.973 3.61724 19.2511 3.84045 19.4133C4.06365 19.5755 4.36002 19.5874 4.59541 19.4435L10 16.1424L15.4046 19.4435C15.5142 19.5105 15.637 19.5437 15.7596 19.5437C15.9002 19.5437 16.0403 19.4999 16.1596 19.4133C16.3828 19.2511 16.4856 18.973 16.4216 18.7046L15.6869 15.6245L14.9522 12.5444L19.7619 8.42444C19.9714 8.24499 20.0517 7.95948 19.9664 7.6971ZM19.3333 7.92417L14.3708 12.1751C14.277 12.2554 14.236 12.3815 14.2647 12.5016L15.7808 18.8575C15.7827 18.8652 15.7843 18.8718 15.7724 18.8804C15.7605 18.889 15.7544 18.8853 15.748 18.8814L10.1717 15.4754C10.119 15.4432 10.0595 15.427 10 15.427C9.94059 15.427 9.88106 15.4432 9.82837 15.4754L4.25209 18.8813C4.24568 18.8853 4.23959 18.889 4.22771 18.8804C4.21584 18.8718 4.21744 18.8652 4.21927 18.8575L5.7354 12.5016C5.76404 12.3814 5.7231 12.2554 5.62927 12.175L0.66678 7.92409C0.661077 7.91917 0.655686 7.91456 0.660179 7.90065C0.66471 7.88675 0.671819 7.88612 0.679319 7.88554L7.19263 7.36335C7.31579 7.35347 7.42302 7.27558 7.47044 7.16151L9.97977 1.12832C9.98266 1.12137 9.9854 1.1148 10 1.1148C10.0147 1.1148 10.0174 1.12141 10.0203 1.12832L12.5296 7.16151C12.5771 7.27558 12.6843 7.35347 12.8075 7.36335L19.3208 7.88554C19.3283 7.88616 19.3354 7.88671 19.3399 7.90065C19.3445 7.91456 19.339 7.91925 19.3333 7.92417Z" fill="#E1B92E"/>
-                                          <path d="M13.1883 8.143L12.7477 8.10769C12.3436 8.07531 11.9959 7.82265 11.8402 7.44835L11.5816 6.82671C11.5118 6.65878 11.319 6.57929 11.151 6.6491C10.9831 6.71898 10.9035 6.91171 10.9734 7.07972L11.232 7.70136C11.4829 8.30484 12.0436 8.71218 12.695 8.76437L13.1355 8.79968C13.1445 8.80038 13.1534 8.80074 13.1623 8.80074C13.3322 8.80074 13.4764 8.66999 13.4902 8.49765C13.5048 8.31632 13.3696 8.15753 13.1883 8.143Z" fill="#FFDC64"/>
-                                          <path d="M10.9976 5.42235L10.7054 4.71981C10.6355 4.55188 10.4426 4.47231 10.2747 4.5422C10.1068 4.61208 10.0272 4.80481 10.0971 4.97282L10.3893 5.67536C10.442 5.80196 10.5645 5.87837 10.6936 5.87837C10.7357 5.87837 10.7786 5.8702 10.8199 5.85301C10.9879 5.78313 11.0674 5.59032 10.9976 5.42235Z" fill="#FFDC64"/>
-                                          </g>
-                                          <defs>
-                                          <clipPath id="image34">
-                                          <rect width="20" height="20" fill="white"/>
-                                          </clipPath>
-                                          </defs>
-                                          </svg>
-                                          </span></p>
+                           <?php foreach ($food as $key => $value): ?>
+                              <div class="food-product-main-wrapper">
+                                 <div class="product-img">
+                                    <img src="{{ $value->image }}" alt="img" style="object-fit: cover; height: 100%">
+                                    <div class="img-top-btn">
+                                       <a href="javascript:;">New</a> 
                                     </div>
+                                 </div>
+                                 <div class="product-text">
+                                    <div class="product-rate">
+                                       <h3><a href="javascript:;">{{ $value->name }}</a></h3>
+                                       <span>{{ $value->price }} đ</span>
+                                    </div>
+                                    <p class="cutting">{{ $value->description }}</p>
+                                       <div class="btn-sec">
+                                          <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Add</a> 
+                                       </div>
+                                 </div>
                               </div>
-                           </div>
+                           <?php endforeach ?>
 
                         </div>
                         <!--  -->
                         <div class="view-btn-sec">
-                           <a href="javascript:;" class="custom-btn">View All</a>
+                           <a href="javascript:;" class="custom-btn">Xem tất cả</a>
                         </div>
                      </div>
                      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                         <div class="food-kitchen-grid-wrapper">
-                           <div class="food-kitchen-main-wrapper">
-                              <div class="btn-sec">
-                                 <!-- <a href="javascript:;">Add</a> -->
-                                 <p>(4.3) <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#image8)">
-                                    <path d="M10.3244 1.00206L12.8337 7.03525L19.3471 7.55744C19.6586 7.58244 19.7849 7.97119 19.5476 8.17451L14.5851 12.4254L16.1012 18.7812C16.1737 19.0853 15.843 19.3255 15.5763 19.1626L9.99996 15.7566L4.42367 19.1626C4.15696 19.3255 3.82625 19.0852 3.89875 18.7813L5.41488 12.4254L0.45243 8.17451C0.215086 7.97123 0.341414 7.58244 0.652937 7.55744L7.16625 7.03525L9.67558 1.00206C9.79558 0.713506 10.2044 0.713506 10.3244 1.00206Z" fill="#FFDC64"></path>
-                                    <path d="M6.872 12.7241C6.97626 12.3296 6.84349 11.9105 6.53118 11.648L3.22912 8.87227C3.05061 8.69422 3.14565 8.35371 3.37994 8.33184L7.60728 7.93727C8.017 7.89903 8.36696 7.6259 8.50356 7.23774L10.5269 1.48885L10.3244 1.00182C10.2043 0.713262 9.79555 0.713262 9.67559 1.00182L7.16626 7.03493L0.652998 7.55719C0.341475 7.58219 0.215148 7.97094 0.452491 8.17426L5.41498 12.4251L3.89885 18.781C3.82635 19.085 4.15705 19.3253 4.42377 19.1623L5.31412 18.6185L6.872 12.7241Z" fill="#E8B445"></path>
-                                    <path d="M19.9664 7.6971C19.8812 7.43472 19.6484 7.25093 19.3734 7.2289L13.0606 6.72284L10.6286 0.875351C10.5226 0.620625 10.2759 0.456055 10 0.456055C9.72415 0.456055 9.47747 0.620664 9.37149 0.875351L6.93943 6.72276L0.626624 7.2289C0.351664 7.25093 0.118852 7.43476 0.0335783 7.6971C-0.051695 7.95944 0.0286564 8.24499 0.238148 8.42444L5.04783 12.5444L3.57842 18.7046C3.51439 18.973 3.61724 19.2511 3.84045 19.4133C4.06365 19.5755 4.36002 19.5874 4.59541 19.4435L10 16.1424L15.4046 19.4435C15.5142 19.5105 15.637 19.5437 15.7596 19.5437C15.9002 19.5437 16.0403 19.4999 16.1596 19.4133C16.3828 19.2511 16.4856 18.973 16.4216 18.7046L15.6869 15.6245L14.9522 12.5444L19.7619 8.42444C19.9714 8.24499 20.0517 7.95948 19.9664 7.6971ZM19.3333 7.92417L14.3708 12.1751C14.277 12.2554 14.236 12.3815 14.2647 12.5016L15.7808 18.8575C15.7827 18.8652 15.7843 18.8718 15.7724 18.8804C15.7605 18.889 15.7544 18.8853 15.748 18.8814L10.1717 15.4754C10.119 15.4432 10.0595 15.427 10 15.427C9.94059 15.427 9.88106 15.4432 9.82837 15.4754L4.25209 18.8813C4.24568 18.8853 4.23959 18.889 4.22771 18.8804C4.21584 18.8718 4.21744 18.8652 4.21927 18.8575L5.7354 12.5016C5.76404 12.3814 5.7231 12.2554 5.62927 12.175L0.66678 7.92409C0.661077 7.91917 0.655686 7.91456 0.660179 7.90065C0.66471 7.88675 0.671819 7.88612 0.679319 7.88554L7.19263 7.36335C7.31579 7.35347 7.42302 7.27558 7.47044 7.16151L9.97977 1.12832C9.98266 1.12137 9.9854 1.1148 10 1.1148C10.0147 1.1148 10.0174 1.12141 10.0203 1.12832L12.5296 7.16151C12.5771 7.27558 12.6843 7.35347 12.8075 7.36335L19.3208 7.88554C19.3283 7.88616 19.3354 7.88671 19.3399 7.90065C19.3445 7.91456 19.339 7.91925 19.3333 7.92417Z" fill="#E1B92E"></path>
-                                    <path d="M13.1883 8.143L12.7477 8.10769C12.3436 8.07531 11.9959 7.82265 11.8402 7.44835L11.5816 6.82671C11.5118 6.65878 11.319 6.57929 11.151 6.6491C10.9831 6.71898 10.9035 6.91171 10.9734 7.07972L11.232 7.70136C11.4829 8.30484 12.0436 8.71218 12.695 8.76437L13.1355 8.79968C13.1445 8.80038 13.1534 8.80074 13.1623 8.80074C13.3322 8.80074 13.4764 8.66999 13.4902 8.49765C13.5048 8.31632 13.3696 8.15753 13.1883 8.143Z" fill="#FFDC64"></path>
-                                    <path d="M10.9976 5.42235L10.7054 4.71981C10.6355 4.55188 10.4426 4.47231 10.2747 4.5422C10.1068 4.61208 10.0272 4.80481 10.0971 4.97282L10.3893 5.67536C10.442 5.80196 10.5645 5.87837 10.6936 5.87837C10.7357 5.87837 10.7786 5.8702 10.8199 5.85301C10.9879 5.78313 11.0674 5.59032 10.9976 5.42235Z" fill="#FFDC64"></path>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="image8">
-                                    <rect width="20" height="20" fill="white"></rect>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                    </span></p>
-                              </div>
+                           <?php foreach ($food as $key => $value): ?>
+                           <div class="food-kitchen-main-wrapper"> 
                               <div class="kitchen-img">
                                  
-                                 <img src="images/product.png" alt="img">
+                                 <img src="{{ $value->image }}" alt="img" style="object-fit: cover; height: 100%">
                               </div>
                               <div class="kitchen-text">
                                  <h4><a href="javascript:;">Vada Pav</a></h4>
-                                 <p> Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipiscing elit, sed...</p>
-                                    <span>₹ 160</span>
-                                    <a href="javascript:;" class="custom-btn">Add</a>
+                                 <p class="cutting">{{ $value->description }}</p>
+                                 <span>{{ $value->price }} đ</span>
+                                 <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Add</a>
                               </div>
-                           </div>
-                           <!--  -->
-                           <div class="food-kitchen-main-wrapper">
-                              <div class="btn-sec">
-                                 <!-- <a href="javascript:;">Add</a> -->
-                                 <p>(4.3) <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#image9)">
-                                    <path d="M10.3244 1.00206L12.8337 7.03525L19.3471 7.55744C19.6586 7.58244 19.7849 7.97119 19.5476 8.17451L14.5851 12.4254L16.1012 18.7812C16.1737 19.0853 15.843 19.3255 15.5763 19.1626L9.99996 15.7566L4.42367 19.1626C4.15696 19.3255 3.82625 19.0852 3.89875 18.7813L5.41488 12.4254L0.45243 8.17451C0.215086 7.97123 0.341414 7.58244 0.652937 7.55744L7.16625 7.03525L9.67558 1.00206C9.79558 0.713506 10.2044 0.713506 10.3244 1.00206Z" fill="#FFDC64"></path>
-                                    <path d="M6.872 12.7241C6.97626 12.3296 6.84349 11.9105 6.53118 11.648L3.22912 8.87227C3.05061 8.69422 3.14565 8.35371 3.37994 8.33184L7.60728 7.93727C8.017 7.89903 8.36696 7.6259 8.50356 7.23774L10.5269 1.48885L10.3244 1.00182C10.2043 0.713262 9.79555 0.713262 9.67559 1.00182L7.16626 7.03493L0.652998 7.55719C0.341475 7.58219 0.215148 7.97094 0.452491 8.17426L5.41498 12.4251L3.89885 18.781C3.82635 19.085 4.15705 19.3253 4.42377 19.1623L5.31412 18.6185L6.872 12.7241Z" fill="#E8B445"></path>
-                                    <path d="M19.9664 7.6971C19.8812 7.43472 19.6484 7.25093 19.3734 7.2289L13.0606 6.72284L10.6286 0.875351C10.5226 0.620625 10.2759 0.456055 10 0.456055C9.72415 0.456055 9.47747 0.620664 9.37149 0.875351L6.93943 6.72276L0.626624 7.2289C0.351664 7.25093 0.118852 7.43476 0.0335783 7.6971C-0.051695 7.95944 0.0286564 8.24499 0.238148 8.42444L5.04783 12.5444L3.57842 18.7046C3.51439 18.973 3.61724 19.2511 3.84045 19.4133C4.06365 19.5755 4.36002 19.5874 4.59541 19.4435L10 16.1424L15.4046 19.4435C15.5142 19.5105 15.637 19.5437 15.7596 19.5437C15.9002 19.5437 16.0403 19.4999 16.1596 19.4133C16.3828 19.2511 16.4856 18.973 16.4216 18.7046L15.6869 15.6245L14.9522 12.5444L19.7619 8.42444C19.9714 8.24499 20.0517 7.95948 19.9664 7.6971ZM19.3333 7.92417L14.3708 12.1751C14.277 12.2554 14.236 12.3815 14.2647 12.5016L15.7808 18.8575C15.7827 18.8652 15.7843 18.8718 15.7724 18.8804C15.7605 18.889 15.7544 18.8853 15.748 18.8814L10.1717 15.4754C10.119 15.4432 10.0595 15.427 10 15.427C9.94059 15.427 9.88106 15.4432 9.82837 15.4754L4.25209 18.8813C4.24568 18.8853 4.23959 18.889 4.22771 18.8804C4.21584 18.8718 4.21744 18.8652 4.21927 18.8575L5.7354 12.5016C5.76404 12.3814 5.7231 12.2554 5.62927 12.175L0.66678 7.92409C0.661077 7.91917 0.655686 7.91456 0.660179 7.90065C0.66471 7.88675 0.671819 7.88612 0.679319 7.88554L7.19263 7.36335C7.31579 7.35347 7.42302 7.27558 7.47044 7.16151L9.97977 1.12832C9.98266 1.12137 9.9854 1.1148 10 1.1148C10.0147 1.1148 10.0174 1.12141 10.0203 1.12832L12.5296 7.16151C12.5771 7.27558 12.6843 7.35347 12.8075 7.36335L19.3208 7.88554C19.3283 7.88616 19.3354 7.88671 19.3399 7.90065C19.3445 7.91456 19.339 7.91925 19.3333 7.92417Z" fill="#E1B92E"></path>
-                                    <path d="M13.1883 8.143L12.7477 8.10769C12.3436 8.07531 11.9959 7.82265 11.8402 7.44835L11.5816 6.82671C11.5118 6.65878 11.319 6.57929 11.151 6.6491C10.9831 6.71898 10.9035 6.91171 10.9734 7.07972L11.232 7.70136C11.4829 8.30484 12.0436 8.71218 12.695 8.76437L13.1355 8.79968C13.1445 8.80038 13.1534 8.80074 13.1623 8.80074C13.3322 8.80074 13.4764 8.66999 13.4902 8.49765C13.5048 8.31632 13.3696 8.15753 13.1883 8.143Z" fill="#FFDC64"></path>
-                                    <path d="M10.9976 5.42235L10.7054 4.71981C10.6355 4.55188 10.4426 4.47231 10.2747 4.5422C10.1068 4.61208 10.0272 4.80481 10.0971 4.97282L10.3893 5.67536C10.442 5.80196 10.5645 5.87837 10.6936 5.87837C10.7357 5.87837 10.7786 5.8702 10.8199 5.85301C10.9879 5.78313 11.0674 5.59032 10.9976 5.42235Z" fill="#FFDC64"></path>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="image9">
-                                    <rect width="20" height="20" fill="white"></rect>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                    </span></p>
-                              </div>
-                              <div class="kitchen-img">
-                                 
-                                 <img src="images/item/item1.png" alt="img">
-                              </div>
-                              <div class="kitchen-text">
-                                 <h4><a href="javascript:;">Khichdi</a></h4>
-                                 <p> Lorem ipsum dolor sit amet,
-                                    consectetur
-                                    adipiscing elit, sed...</p>
-                                    <span>₹ 150</span>
-                                    <a href="javascript:;" class="custom-btn">Add</a>
-                              </div>
-                           </div>
+                           </div> 
+                           <?php endforeach ?>
                         </div> 
                         <div class="view-btn-sec">
-                           <a href="javascript:;" class="custom-btn">View All</a>
+                           <a href="/category" class="custom-btn">View All</a>
                         </div>
                      </div>
                      
@@ -703,350 +239,13 @@
          </div>
       </div>
 
-      <!--  -->
+@endsection()
 
-      <footer class="food-footer-main-wrapper">
-         <div class="container custom-container">
-            <div class="food-footer-content-wrapper">
-               <div class="footer-links">
-                  <div class="footer-logo">
-                     <a href="index.html"> <img src="images/footer-logo.png" alt="img"> </a>
-                  </div>
-                  <div class="contact-details">
-                     <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M17.753 1.32654L9.98166 16.8692C9.84405 17.1526 9.61333 17.2942 9.28953 17.2942C9.24905 17.2942 9.18834 17.2861 9.10739 17.2699C8.92929 17.2295 8.78561 17.1384 8.67632 16.9967C8.56704 16.8551 8.51239 16.6952 8.51239 16.5171V9.52288H1.51818C1.34009 9.52288 1.18021 9.46824 1.03855 9.35895C0.896882 9.24967 0.805812 9.10598 0.765336 8.92788C0.72486 8.74979 0.74105 8.57979 0.813907 8.41789C0.886763 8.25599 1.00414 8.13456 1.16605 8.05361L16.7087 0.282265C16.814 0.225599 16.9314 0.197266 17.0609 0.197266C17.2794 0.197266 17.4616 0.27417 17.6073 0.427977C17.7287 0.541309 17.8036 0.680951 17.8319 0.846901C17.8603 1.01285 17.834 1.17273 17.753 1.32654Z" fill="#EB0029"/>
-                        </svg>
-                        </span>
-                        <span>8901 Marmora Road, New York, NY  10013 <a href="javascript:;">Get Direction</a> </span>
-                  </div>
-                  <div class="contact-details">
-                     <span><svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.32318 0.628151L3.24445 0.333618C4.10835 0.0579209 5.03134 0.504002 5.40122 1.37561L6.13755 3.11199C6.45777 3.86802 6.27968 4.75761 5.69746 5.31072L4.07496 6.85017C4.17514 7.77144 4.48508 8.67816 5.00394 9.57032C5.49666 10.4335 6.15756 11.189 6.94752 11.7922L8.89623 11.1414C9.63428 10.8957 10.4391 11.1791 10.8912 11.8444L11.9469 13.3941C12.4734 14.1681 12.3784 15.2349 11.7251 15.8908L11.0256 16.5937C10.3287 17.2933 9.33289 17.5475 8.41248 17.2599C6.23773 16.5817 4.24021 14.5688 2.4165 11.2211C0.590224 7.86819 -0.0544951 5.02218 0.483199 2.68646C0.709236 1.70354 1.40875 0.920115 2.32318 0.628151Z" fill="#EB0029"/>
-                        </svg>
+@section('sub_layout')
 
-                        </span>
-                        <span>+1800 650 5620  </span>
-                  </div>
-                  <div class="contact-details">
-                     <span><svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M15.1881 1.15373L14.0672 2.02941L9.29474 5.57592L4.52227 1.99438L3.4014 1.1187C3.13735 0.900259 2.815 0.764086 2.47431 0.727054C2.13361 0.690021 1.78954 0.753756 1.48472 0.910363C1.17989 1.06697 0.927714 1.30957 0.75942 1.6081C0.591126 1.90663 0.514114 2.24797 0.537925 2.58985V12.739C0.537925 13.0548 0.663397 13.3578 0.886739 13.5811C1.11008 13.8044 1.413 13.9299 1.72885 13.9299H4.52227V7.16966L9.29474 10.7512L14.0672 7.16966V13.9299H16.8606C17.1765 13.9299 17.4794 13.8044 17.7027 13.5811C17.9261 13.3578 18.0515 13.0548 18.0515 12.739V2.58985C18.068 2.25092 17.9856 1.91452 17.8145 1.62154C17.6433 1.32855 17.3907 1.0916 17.0874 0.939477C16.7841 0.787357 16.4431 0.726624 16.1059 0.76466C15.7687 0.802695 15.4499 0.937862 15.1881 1.15373V1.15373Z" fill="#EB0029"/>
-                        </svg>
-                        
+@endsection()
 
-                        </span>
-                        <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="88edf0e9e5f8e4edc8efe5e9e1e4a6ebe7e5">[email&#160;protected]</a> </span>
-                  </div>
-               </div>
-               <div class="footer-links">
-                  <h3 class="footer-title">Menu</h3>
-                  <ul>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Burgers</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Desserts</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Sides</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Pizza</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Pasta</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Drinks</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="footer-links">
-                  <h3 class="footer-title">Company</h3>
-                  <ul>
-                     <li>
-                        <a href="about-us.html"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> About</a>
-                     </li>
-                     <li>
-                        <a href="shop.html"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Menu</a>
-                     </li>
-                     <li>
-                        <a href="shop.html"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Shop</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Testimonials</a>
-                     </li>
-                     <li>
-                        <a href="blog-single.html"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Blog</a>
-                     </li>
-                     <li>
-                        <a href="contact-us.html"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-               <div class="footer-links">
-                  <h3 class="footer-title">Support</h3>
-                  <ul>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> How to Order</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Where We Deliver</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> FAQs</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Contact</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Terms and Contiotions</a>
-                     </li>
-                     <li>
-                        <a href="javascript:;"> <span><svg width="17" height="15" viewBox="0 0 17 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <path d="M11.4998 0.839844H6.99976L11.9998 7.83984L6.99976 14.8398H11.4998L16.4998 7.83984L11.4998 0.839844Z" fill="#EB0029"/>
-                           <path d="M4.49976 0.839844H-0.000244141L4.99976 7.83984L-0.000244141 14.8398H4.49976L9.49976 7.83984L4.49976 0.839844Z" fill="#EB0029"/>
-                           </svg>
-                           </span> Privacy Policy</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </footer>
 
-      <div class="bottom-footer">
-         <div class="container custom-container">
-            <div class="bottom-footer-wrapper">
-               <div class="fotter-left">
-                  <span>Copyright © 2023-24 Mother's Recipe. | All rights reserved.</span>
-               </div>
-               <div class="fotter-right">
-                  <ul>
-                     <li><a href="contact-us.html">Contact us</a></li>
-                     <li><a href="javascript:;">Pricing</a></li>
-                     <li><a href="javascript:;">Licensing terms</a></li>
-                     <li><a href="javascript:;">Terms of use</a></li>
-                     <li><a href="javascript:;">Privacy Policy</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- Side Panel -->
-      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-      <script src="{{ asset("customer/js/jquery-3.6.0.min.js") }}"></script>
-      <script src="{{ asset("customer/js/bootstrap.min.js") }}"></script>
-      <script src="{{ asset("customer/js/wow.js") }}"></script>
-      <script src="{{ asset("customer/js/owl.carousel.min.js") }}"></script>
-      <!-- <script src="{{ asset("customer/js/sticky.js") }}"></script> -->
-      <script src="{{ asset("customer/js/custom.js") }}"></script>
-      <script>
-         window.addEventListener('load',function(){
-         initSlider(
-         'slider', //id
-         ['Your Doorstep','Your Doorstep','Your Doorstep'], 
-         100, //duration
-         1000 //delay
-         );
-         });
-         
-         //just copy and paste below
-
-         var createText = function(text,id,duration){
-         document.getElementById(id).innerHTML = '';
-         for(let i = 0; i < text.length; i++){
-         setTimeout(()=>{
-         let newText = text.substr(0,(i+1));
-         document.getElementById(id).innerHTML = newText;
-         },duration*i);
-         }
-         }
-         var clearText = function(id,duration){
-         let text = document.getElementById(id).innerHTML;
-         for(let i = text.length; i > 0; i--){
-         setTimeout(()=>{
-         let newText = text.substr(0,text.length-i);
-         document.getElementById(id).innerHTML = newText;
-         },duration*i);
-         }
-         }
-         var initSlider = function(id,texts,duration,delay){
-         let durs = [];
-         for(let i = 0; i < texts.length-1; i++){
-         let beforeDur;
-         if(i==0){
-         beforeDur = 0;
-         }
-         else{
-         beforeDur=durs[i-1];
-         }
-         durs.push((texts[i].length*duration*2) + (2*delay) + beforeDur);
-         }
-         
-         let allTime = 0;
-         for (let i = 0; i < texts.length; i++){
-         allTime += (texts[i].length*duration*2) + (2*delay);
-         }
-         let mainSlider = function(){
-         for(let i = 0; i < texts.length; i++){
-         setTimeout(()=>{
-           createText(texts[i],id,duration);
-           setTimeout(()=>{
-             clearText(id,duration);
-           },texts[i].length*duration + delay);
-         },i === 0 ? 0 : durs[i-1]);
-         }
-         }
-         mainSlider();
-         setInterval(()=>{
-         mainSlider();
-         },allTime);  
-         }
-         
-      </script>
-      <!-- pluse minus value-->
-      <script>
-         function increaseValue() {
-           var value = parseInt(document.getElementById('number').value, 10);
-           value = isNaN(value) ? 0 : value;
-           value++;
-           document.getElementById('number').value = value;
-         }
-
-         function decreaseValue() {
-           var value = parseInt(document.getElementById('number').value, 10);
-           value = isNaN(value) ? 0 : value;
-           value < 1 ? value = 1 : '';
-           value--;
-           document.getElementById('number').value = value;
-         }
-      </script>
-        <script>
-         function increasesValue() {
-           var value = parseInt(document.getElementById('numbers').value, 10);
-           value = isNaN(value) ? 0 : value;
-           value++;
-           document.getElementById('numbers').value = value;
-         }
-
-         function decreasesValue() {
-           var value = parseInt(document.getElementById('numbers').value, 10);
-           value = isNaN(value) ? 0 : value;
-           value < 1 ? value = 1 : '';
-           value--;
-           document.getElementById('numbers').value = value;
-         }
-      </script>
-      <!--  -->
-      <script>
-         $(document).ready(function () {
-            $(".sidebar-toggle , .sidebar-close").click(function () {
-               $("#right-sidebar").toggleClass("open")
-            });
-         });
-      </script>
-       <script>
-         $(document).ready(function () {
-            $(".cart-toggle , .cart-close").click(function () {
-               $("#cart-sidebar").toggleClass("open")
-            });
-         });
-      </script>
-      <script>
-         $(document).ready(function(){
-         $(".search-btn").click(function(){
-            $(".search-open").slideToggle();
-         });
-         $('body').on('click', function (e) {
-               if (!$('.search-btn').is(e.target)
-                     && $('.search-btn').has(e.target).length === 0
-                     && $('.open').has(e.target).length === 0
-               ) {
-                     $('.search-open').slideUp();
-               }
-            });
-         });
-      </script>
-       <script>
-         new WOW().init();
-       </script>
-       <!-- for scroll functionality js-->
-       <script>
-         $(window).scroll(function() {    
-            var scroll = $(window).scrollTop();    
-            if (scroll <= 500) {
-               $(".left-today").removeClass("sticky").addClass("sticky");
-            }
-         });
-       </script>
-   </body>
-</html>
+@section('js')
+<script type="text/javascript" src="{{ asset('customer/assets/js/page/index.js') }}"></script>
+@endsection()

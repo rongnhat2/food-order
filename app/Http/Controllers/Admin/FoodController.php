@@ -62,4 +62,10 @@ class FoodController extends Controller
         $this->food->delete($id); 
         return $this->food->send_response(200, "Delete successful", null);
     }
+
+    public function get_search(Request $request){
+        $text = $request->data_text; 
+        $data = $this->food->find_real_time($text);
+        return $this->food->send_response(200, $data, null);
+    }
 }

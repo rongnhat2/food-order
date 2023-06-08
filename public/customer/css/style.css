@@ -25,7 +25,7 @@
 /*1.Theme default CSS
 --------------------------*/
 body {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 24px;
   color: #000000;
@@ -69,7 +69,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Poppins";
+  font-family: "Open Sans";
   line-height: 1.1;
   font-weight: 500;
   color: #000000;
@@ -216,7 +216,7 @@ ul {
   display: inline-block;
   overflow: hidden;
   font-size: 22px;
-  font-family: "Poppins";
+  font-family: "Open Sans";
   text-transform: capitalize;
   transition: 0.5s ease-in-out;
   z-index: 1111;
@@ -280,7 +280,7 @@ ul {
 
 .title-heading {
   font-size: 55px;
-  font-family: "Poppins";
+  font-family: "Open Sans";
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -7007,7 +7007,7 @@ ul {
 .al-section-4 .alert-text {
   padding-left: 30px;
   font-size: 16px;
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 .al-section-4 .btn-close {
   padding: 1rem;

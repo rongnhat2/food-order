@@ -25,5 +25,11 @@ class FoodRepository extends BaseRepository implements RepositoryInterface
                 ->where("food.id", "=", $id)
                 ->first(); 
     } 
+    public function find_real_time($name){ 
+        $sql = "SELECT  *
+                FROM food 
+                WHERE name like '%".$name."%' LIMIT 5";
+        return DB::select($sql);
+    }
  
 }

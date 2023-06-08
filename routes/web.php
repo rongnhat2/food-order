@@ -14,12 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Customer\DisplayController@index')->name('customer.view.index');
+Route::get('/category', 'Customer\DisplayController@category')->name('customer.view.category');
 
 
 Route::middleware(['AuthAdmin:auth'])->group(function () {
     Route::prefix('admin')->group(function () {
         Route::get('/login', 'Admin\DisplayController@login')->name('admin.login');
         Route::post('/login', 'Admin\AuthController@login')->name('admin.login');
+    });
+});
+
+Route::prefix('customer')->group(function () {
+    Route::prefix('apip')->group(function () { 
+        Route::prefix('product')->group(function () { 
+            Route::post('get-search', 'Admin\FoodController@get_search')->name('customer.product.get.search');
+        });
     });
 });
 
