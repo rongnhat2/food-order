@@ -5,7 +5,7 @@ const View = {
                 `<div class="id-order">${data.id}</div>`,
                 data.name,     
                 data.description,    
-                data.price,      
+                data.prices,      
                 `<div class="view-data tab-action" atr="Edit" style="cursor: pointer" data-id="${data.id}"><i class="anticon anticon-edit"></i></div>
                 <div class="view-data tab-action" atr="Delete" style="cursor: pointer" data-id="${data.id}"><i class="anticon anticon-delete"></i></div>`
             ]
