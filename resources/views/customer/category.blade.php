@@ -90,7 +90,7 @@
                                  <div class="product-text">
                                     <div class="product-rate">
                                        <h3><a href="javascript:;">{{ $value->name }}</a></h3>
-                                       <span>{{ $value->price }} đ</span>
+                                       <span>{{ $value->prices }} đ</span>
                                     </div>
                                     <p class="cutting">{{ $value->description }}</p>
                                        <div class="btn-sec">
@@ -111,7 +111,7 @@
                               <div class="kitchen-text">
                                  <h4><a href="javascript:;">{{ $value->name }}</a></h4>
                                  <p class="cutting">{{ $value->description }}</p>
-                                    <span>{{ $value->price }} đ</span>
+                                    <span>{{ $value->prices }} đ</span>
                                     <a href="javascript:;" class="custom-btn action-add-to-card" atr="Add to card" data-id="{{ $value->id }}">Thêm</a>
                               </div>
                            </div> 
