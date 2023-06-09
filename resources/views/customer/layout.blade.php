@@ -76,6 +76,24 @@
          .suggess-item .highlight {
            background-color: yellow;
          }
+         .js-response{
+             border: 1px solid #f64600;
+             padding: 10px 30px;
+             margin: 0 0 10px 0;
+             border-radius: 4px;
+         }
+         .js-errors{
+           border-color: #f64600;
+         }
+         .js-errors li{
+            color: #f64600;
+         }
+         .js-success{
+           border-color: #00c9a7;
+         }
+         .js-success li{
+            color: #00c9a7;
+         }
       </style>    
    </head>
    <body>
@@ -462,6 +480,7 @@
       <script src="{{ asset("customer/js/custom.js") }}"></script>
       <script src="{{ asset("customer/js/page/api.js") }}"></script>
       <script src="{{ asset("customer/js/page/layout.js") }}"></script>
+      @yield('js')
       <script>
           
        </script>

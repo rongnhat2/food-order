@@ -3,6 +3,7 @@ const Api = {
     Tool: {},   
     Kitchen: {},   
     Food: {},   
+    Order: {},   
 
     Image: {},
     
@@ -74,6 +75,18 @@ const Api = {
         url: `/apip/tool/delete/${id}`,
         method: 'GET',
     });
+})(); 
+
+//Order
+(() => {
+    Api.Order.GetAll = () => $.ajax({
+        url: `/apip/order/get`,
+        method: 'GET',
+    });  
+    Api.Order.getOne = (id) => $.ajax({
+        url: `/apip/order/get-one/${id}`,
+        method: 'GET',
+    }); 
 })(); 
 
 //Kitchen

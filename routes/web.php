@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'Customer\DisplayController@index')->name('customer.view.index');
 Route::get('/category', 'Customer\DisplayController@category')->name('customer.view.category');
 Route::get('/cart', 'Customer\DisplayController@cart')->name('customer.view.cart');
+Route::get('/checkout', 'Customer\DisplayController@checkout')->name('customer.view.cart');
 
 
 Route::middleware(['AuthAdmin:auth'])->group(function () {
@@ -29,6 +30,10 @@ Route::prefix('customer')->group(function () {
     Route::prefix('apip')->group(function () { 
         Route::prefix('product')->group(function () { 
             Route::post('get-search', 'Admin\FoodController@get_search')->name('customer.product.get.search');
+            Route::get('/get-one/{id}', 'Admin\FoodController@get_one')->name('admin.food.get_one');
+        });
+        Route::prefix('order')->group(function () { 
+            Route::post('create', 'Admin\OrderController@create')->name('customer.product.get.search'); 
         });
     });
 });
@@ -50,6 +55,12 @@ Route::middleware(['AuthAdmin:admin'])->group(function () {
         });
         Route::prefix('food')->group(function () {
             Route::get('/', 'Admin\FoodController@index')->name('admin.food.index');
+        });
+        Route::prefix('order')->group(function () {
+            Route::get('/', 'Admin\OrderController@index')->name('admin.order.index');
+        });
+        Route::prefix('group')->group(function () {
+            Route::get('/', 'Admin\GroupController@index')->name('admin.group.index');
         });
  
     });
@@ -84,6 +95,13 @@ Route::middleware(['AuthAdmin:admin'])->group(function () {
             Route::post('store', 'Admin\FoodController@store')->name('admin.food.store');
             Route::post('/update', 'Admin\FoodController@update')->name('admin.food.update'); 
             Route::get('/delete/{id}', 'Admin\FoodController@delete')->name('admin.food.delete');
+        });  
+        Route::prefix('order')->group(function () {
+            Route::get('get', 'Admin\OrderController@get')->name('admin.order.get');
+            Route::get('/get-one/{id}', 'Admin\OrderController@get_one')->name('admin.order.get_one');
+            Route::post('store', 'Admin\OrderController@store')->name('admin.order.store');
+            Route::post('/update', 'Admin\OrderController@update')->name('admin.order.update'); 
+            Route::get('/delete/{id}', 'Admin\OrderController@delete')->name('admin.order.delete');
         });  
     });
 });

@@ -1,14 +1,14 @@
 <div class="side-nav">
     <div class="side-nav-inner">
         <ul class="side-nav-menu scrollable"> 
-            <li class="nav-item statistic-group">
+            {{-- <li class="nav-item statistic-group">
                 <a class="dropdown-toggle statistic" href="#">
                     <span class="icon-holder">
                         <i class="anticon anticon-appstore"></i>
                     </span>
                     <span class="title">Thống kê</span>
                 </a>
-            </li> 
+            </li>  --}}
             <li class="nav-item ingredient-group">
                 <a class="dropdown-toggle ingredient" href="{{ route('admin.ingredient.index') }}">
                     <span class="icon-holder">
@@ -42,21 +42,29 @@
                 </a>
             </li> 
             <li class="nav-item order-group">
-                <a class="dropdown-toggle order" href="#">
+                <a class="dropdown-toggle order" href="{{ route('admin.order.index') }}">
                     <span class="icon-holder">
                         <i class="anticon anticon-appstore"></i>
                     </span>
                     <span class="title">Đơn hàng</span>
                 </a>
             </li> 
-            <li class="nav-item warehouse-group">
+            <li class="nav-item group-group">
+                <a class="dropdown-toggle group" href="{{ route('admin.group.index') }}">
+                    <span class="icon-holder">
+                        <i class="anticon anticon-appstore"></i>
+                    </span>
+                    <span class="title">Quản lí bếp</span>
+                </a>
+            </li> 
+            {{-- <li class="nav-item warehouse-group">
                 <a class="dropdown-toggle warehouse" href="#">
                     <span class="icon-holder">
                         <i class="anticon anticon-appstore"></i>
                     </span>
                     <span class="title">Kho hàng</span>
                 </a>
-            </li> 
+            </li>  --}}
 
         </ul>
     </div>

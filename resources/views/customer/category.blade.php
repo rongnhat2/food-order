@@ -135,5 +135,5 @@
 
 
 @section('js')
-<script type="text/javascript" src="{{ asset('customer/assets/js/page/index.js') }}"></script>
+
 @endsection()

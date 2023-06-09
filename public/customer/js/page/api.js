@@ -1,5 +1,6 @@
 const Api = { 
     Product: {}, 
+    Order: {}, 
 };
 (() => {
     $.ajaxSetup({
@@ -20,7 +21,18 @@ const Api = {
         contentType: false,
         processData: false,
     });
+    Api.Product.getOne = (id) => $.ajax({
+        url: `/customer/apip/product/get-one/${id}`,
+        method: 'GET',
+    });
 
+    Api.Order.Checkout = (data) => $.ajax({
+        url: `/customer/apip/order/create`,
+        method: 'POST',
+        data: data,
+        contentType: false,
+        processData: false,
+    });
 })(); 
 
 

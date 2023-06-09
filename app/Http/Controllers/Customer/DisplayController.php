@@ -30,4 +30,12 @@ class DisplayController extends Controller
         $food = $this->food->get_all();
         return view("customer.category", compact('food'));
     }
+    public function cart(){
+        $food = $this->food->get_all();
+        return view("customer.cart", compact('food'));
+    }
+    public function checkout(){
+        $food = $this->food->get_all();
+        return view("customer.checkout", compact('food'));
+    }
 }
