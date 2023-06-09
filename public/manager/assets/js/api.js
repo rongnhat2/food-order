@@ -117,6 +117,15 @@ const Api = {
         url: `/apip/kitchen/delete/${id}`,
         method: 'GET',
     });
+    Api.Kitchen.getOrder = (id) => $.ajax({
+        url: `/apip/kitchen/get-order/${id}`,
+        method: 'GET',
+    });
+    Api.Kitchen.postOrder = (id) => $.ajax({
+        url: `/apip/kitchen/post-order/${id}`,
+        method: 'GET',
+    });
+
 })(); 
 
 //Food

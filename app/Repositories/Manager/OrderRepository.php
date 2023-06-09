@@ -25,5 +25,14 @@ class OrderRepository extends BaseRepository implements RepositoryInterface
                 ->where("order_time.id", "=", $id)
                 ->first(); 
     } 
+
+    public function get_order_sub($he_so){
+        return DB::table('order_detail')
+                ->select("order_detail.*", "food.coefficient", "food.name")
+                ->leftjoin("food", "food.id", "=", "order_detail.food_id")
+                ->where([["order_detail.status", "=", "1"], ["food.coefficient", "<=", $he_so]])
+                ->orderBy('order_detail.created_at','asc')
+                ->first(); 
+    } 
  
 }

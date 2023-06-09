@@ -85,6 +85,8 @@ Route::middleware(['AuthAdmin:admin'])->group(function () {
         Route::prefix('kitchen')->group(function () {
             Route::get('get', 'Admin\KitchenController@get')->name('admin.kitchen.get');
             Route::get('/get-one/{id}', 'Admin\KitchenController@get_one')->name('admin.kitchen.get_one');
+            Route::get('/get-order/{id}', 'Admin\KitchenController@get_order')->name('admin.kitchen.get_order');
+            Route::get('/post-order/{id}', 'Admin\KitchenController@post_order')->name('admin.kitchen.post_order');
             Route::post('store', 'Admin\KitchenController@store')->name('admin.kitchen.store');
             Route::post('/update', 'Admin\KitchenController@update')->name('admin.kitchen.update'); 
             Route::get('/delete/{id}', 'Admin\KitchenController@delete')->name('admin.kitchen.delete');

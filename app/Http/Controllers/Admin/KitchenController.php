@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\Cookie;
 
 use App\Repositories\Manager\KitchenRepository;
 use App\Models\Kitchen; 
+
+use App\Repositories\Manager\OrderRepository;
+use App\Models\OrderDetail;  
+use App\Models\OrderTime; 
+
 use Carbon\Carbon;
 use Session;
 use Hash;
@@ -16,9 +21,11 @@ use DB;
 class KitchenController extends Controller
 {
     protected $kitchen;
+    protected $orderDetail;
 
-    public function __construct(Kitchen $kitchen){
+    public function __construct(Kitchen $kitchen, OrderDetail $orderDetail){
         $this->kitchen             = new KitchenRepository($kitchen); 
+        $this->orderDetail             = new OrderRepository($orderDetail); 
     }
     public function index(){
         return view("admin.manager.kitchen");
@@ -31,6 +38,22 @@ class KitchenController extends Controller
     public function get_one($id){
         $data = $this->kitchen->get_one($id);
         return $this->kitchen->send_response(200, $data, null);
+    }
+    public function get_order($id){
+        $data_kitchen = $this->kitchen->get_one($id); 
+        $he_so = $data_kitchen->coefficient;
+        $don_hang = $this->orderDetail->get_order_sub($he_so);
+
+        $this->orderDetail->update(["status" => 0], $don_hang->id);
+        $this->kitchen->update(["status" => 0], $id);
+        
+        return $this->kitchen->send_response(200, $don_hang, null);
+    }
+    public function post_order($id){
+
+        $this->kitchen->update(["status" => 1], $id);
+        
+        return $this->kitchen->send_response(200, null, null);
     }
  
     public function store(Request $request){     
